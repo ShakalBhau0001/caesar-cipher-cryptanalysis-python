@@ -2,6 +2,7 @@
 
 An educational **Python implementation of Caesar Cipher brute-force cryptanalysis.**
 This project demonstrates how classical encryption can be broken using **exhaustive search and simple English frequency scoring.**
+
 It is designed as a **learning and academic project** to understand why classical ciphers are insecure and how attackers analyze encrypted text — not as a real-world attack tool.
 
 ---
