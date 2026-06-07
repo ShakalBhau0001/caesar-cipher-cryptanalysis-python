@@ -12,9 +12,12 @@ It is designed as a **learning and academic project** to understand why classica
 ```bash
 caesar-cipher-cryptanalysis-python/
 │
-├── app.py            # Brute-force cryptanalysis tool (CLI based)
-├── LICENSE           # Project license
-└── README.md         # Project documentation
+├── assets/               # Screenshots
+├── app.py                # Brute-force Basic CLI Version
+├── interactive.py        # Rich-powered CLI
+├── requirements.txt      # Dependencies
+├── LICENSE               # Project license
+└── README.md             # Project documentation
 ```
 
 ---
@@ -45,6 +48,16 @@ caesar-cipher-cryptanalysis-python/
 - Reinforces modular arithmetic concepts
 - Clean and modular Python implementation
 
+### 🎨 Rich CLI (Interactive Mode)
+- Beautiful colored terminal UI using Rich
+- Displays key matrix in a structured table 🔥
+- Interactive prompts with validation
+- Clean and readable output panels
+
+### ⚡ Dual Mode Support
+- 🧼 Basic CLI → Lightweight, no dependencies
+- 🎨 Rich CLI → Enhanced UI with colors and structured display
+
 ---
 
 ## 🛠 Technologies Used
@@ -56,6 +69,7 @@ caesar-cipher-cryptanalysis-python/
 | **ord() / chr()**      | Character-to-ASCII conversion       |
 | **Modular Arithmetic** | Circular alphabet shifting (`% 26`) |
 | **Heuristic Scoring**  | English-likeness evaluation         |
+| **Rich**               | Styled CLI, colors, panels          |
 
 ---
 
@@ -84,12 +98,35 @@ git clone https://github.com/ShakalBhau0001/caesar-cipher-cryptanalysis-python.g
 cd caesar-cipher-cryptanalysis-python
 ```
 
-### 3️⃣ Run the program
+### 3️⃣ Install Dependencies
+
+```bash
+pip install rich
+```
+
+**OR**
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 4️⃣ Running the Project
+
+#### 🧼 Basic CLI Version
+
 ```bash
 python app.py
 ```
 
-### 4️⃣ Enter Cipher Text
+#### 🎨 Rich Interactive Version
+
+```bash
+python interactive.py
+```
+
+### 5️⃣ Follow the prompts for Basic CLI Version
 - Provide any Caesar-encrypted message
 - View automatically ranked possible plaintexts
 - Analyze shift and direction results
@@ -124,7 +161,7 @@ Shift 23 | Dir L | Score  72 | THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
 - Support file input
 - Add support for other classical ciphers
 - Convert into reusable Python module
-- Build GUI version
+- Add Rich tables for result visualization
 
 ---
 
@@ -133,6 +170,12 @@ Shift 23 | Dir L | Score  72 | THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
 This project is created **for educational and cybersecurity learning purposes only.**
 It demonstrates the inherent weakness of classical substitution ciphers such as Caesar Cipher.
 It must not be used for unauthorized access, malicious activity, or real-world security attacks.
+
+---
+
+## 📸 Preview
+
+![Rich CLI Preview](assets/screenshot.png)
 
 ---
 
