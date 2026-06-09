@@ -175,7 +175,7 @@ It must not be used for unauthorized access, malicious activity, or real-world s
 
 ## 📸 Preview
 
-![Rich CLI Preview](assets/screenshot.png)
+![Rich CLI Preview](assets/BruteCaesar.png)
 
 ---
 
